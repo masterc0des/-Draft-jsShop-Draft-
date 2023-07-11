@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jsShop</title>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="icon" href="images/jsShoplogo.png">
+        <script src="https://kit.fontawesome.com/461d754f02.js" crossorigin="anonymous"></script>    </head>
+        <script defer src="js/checkLoginInput.js"></script>
+    <body>
+        <img src="images/jsShoplogo.png" alt="jsShoplogo" width="90" height="90">
+        <div class="navigationbar">
+            <hr id="hr1">
+            <hr id="invhr">
+            <div class="navigationlinks">
+                <ul class="list"> 
+                    <a href="../index">Startseite</a>
+                    <a href="../technik">Technik</a>
+                    <a href="../kontakt">Kontakt</a>
+                    <!-- <a href="../admin">Admin</a> -->
+                    <% if (locals.user) { %>
+                        <p style="position: absolute; right: 0; margin-right: 120px; margin-top: -17px; margin-right: 215px;">Willkommen, <%= locals.user.nutzername %></p>
+                        <a href="../myaccount" style="position: absolute; right: 0; margin-right: 100px;">Mein Account</a>
+                        <a href="../logout" style="position: absolute; right: 0; margin-right: 30px;">Logout</a>
+                    <% } else { %>
+                        <a href="../login" style="position: absolute; right: 0; margin-right: 142px;">Log-In</a>
+                        <a href="../register" style="position: absolute; right: 0; margin-right: 20px;">Registrieren</a>
+                    <% } %>
+                </ul>
+            </div>
+            <hr id="hr2">
+        </div>
+    </body>

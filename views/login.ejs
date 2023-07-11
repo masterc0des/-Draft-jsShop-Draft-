@@ -1,0 +1,29 @@
+<div id="login-block">
+<div id="error"></div>
+<form action="/login" id="form" method="post">
+    <br>
+    <label for="email" id="emaillabel">E-Mail:</label>
+    <br>
+    <br>
+    <div class="form-control">
+    <input type="text" id="emailinput" name="email"/>
+    <i class="fas fa-check-circle"></i>
+    <i class="fas fa-exclamation-circle"></i>
+    <br> 
+    <small class="small-error-message"></small>
+    </div>
+    <br>
+    <label for="passwort" id="passwortlabel">Passwort:</label>
+    <br>
+    <br>
+    <div class="form-control">
+    <input type="password" id="passwortinput" name="password"/>
+    <i class="fas fa-check-circle"></i>
+    <i class="fas fa-exclamation-circle"></i>
+    <br>
+    <small class="small-error-message"></small>
+    </div>
+    <br>
+    <input type="submit" value="Log-In" id="loginsubmit"/>
+</form>
+</div>

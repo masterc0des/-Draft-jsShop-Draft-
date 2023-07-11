@@ -1,0 +1,190 @@
+h1 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+a {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color:dodgerblue;
+}
+
+#hr1 {
+    margin-top: 2px;
+    height: 2px;
+    background-color: gray;
+    border: none;
+}
+
+#hr2 {
+    margin-top: 20px;
+    height: 2px;
+    background-color: gray;
+    border: none;
+}
+
+#invhr {
+    height: 3px;
+    background-color: white;
+    border: none;
+}
+
+p {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.articlecontainer {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.navigationbar {
+    margin-top: -85px;
+    margin-left: 85px;
+}
+
+.articleoftheday {
+    margin-top: 40px;
+}
+
+.navigationlinks {
+    margin-left: -5px;
+}
+
+.form-control input{
+    border: 2px solid #f0f0f0;
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+.form-control.success input {
+    border: 2px solid #f0f0f0;
+    border-color: #2ecc71;
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+.form-control.error input {
+    border: 2px solid #f0f0f0;
+    border-color: #e74c3c;
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+.small-error-message {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: red;
+}
+
+.form-control i {
+    visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+
+#namelabel,
+#kundenidlabel,
+#anliegenlabel,
+#emaillabel,
+#kundenidlabel,
+#vornamelabel,
+#nachnamelabel,
+#passwortlabel,
+#adresselabel,
+#geburtsdatumlabel,
+#postleitzahllabel,
+#stadtlabel,
+#namelabel,
+#kundenidlabel,
+#anliegenlabel,
+#userlabel {
+    font-family: sans-serif;
+}
+
+#nameinput,
+#kundenidinput,
+#nameinput,
+#kundenidinput,
+#emailinput,
+#passwortinput,
+#vornameinput,
+#nachnameinput,
+#passwortinput,
+#adresseinput,
+#geburtsdatuminput,
+#postleitzahlinput,
+#stadtinput,
+#userinput {
+    width: 300px;
+}
+
+#register-block,
+#login-block {
+    margin-left: 25px;
+}
+
+
+
+#anliegeninput {
+    width: 418px;
+    height: 300px;
+}
+
+#ticketsubmit {
+    font-family: sans-serif;
+    width: 170px;
+    height: 40px;
+}
+
+#registersubmit {
+    font-family: sans-serif;
+    width: 100px;
+    height: 40px;
+}
+
+#loginsubmit {
+    font-family: sans-serif;
+    width: 100px;
+    height: 40px;
+}
+
+#aktualisierensubmit {
+    font-family: sans-serif;
+    width: 100px;
+    height: 40px;
+}
